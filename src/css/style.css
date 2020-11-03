@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    text-decoration: unset;
+}
+nav{
+    width: 100%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #828282;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 300px;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+li a{
+    color: #828282;
+}
+.active a{
+    color: black;
+    font-weight: bold;
+}

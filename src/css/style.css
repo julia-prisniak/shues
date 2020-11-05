@@ -3,6 +3,11 @@
     padding: 0;
     border: 0;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 a{
     text-decoration: unset;
 }
@@ -62,6 +67,7 @@ li:hover a {
     display: flex;
     position: absolute;
     z-index: 0;
+    overflow: hidden;
 }
 .wrapper {
     position: relative;
@@ -90,8 +96,8 @@ div.logo{
     left: 49px;
     position: absolute;
 }
-.elipse-5{
-    top: 684px;
+.ellipse-5{
+    top: 868px;
     right: -52px;
     position: absolute;
 }
@@ -108,10 +114,15 @@ div.logo{
     background-color: #fff;
     border-radius: 20px;
 }
-.div h1 p{
+h1{
+    font-weight: 300;
     top: 124px;
     left: 134px;
     position: absolute;
+}
+.bold{
+    font-weight: 700;
+    display: inline-block;
 }
 
 

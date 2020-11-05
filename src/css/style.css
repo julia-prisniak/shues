@@ -67,9 +67,29 @@ div.logo{
     margin: 33px auto 33px 150px;
 
 }
-.ellipse-10{
+.ellipse-1{
     top: 124px;
     left: -55px;
+    position: absolute;
+}
+.ellipse-4{
+    top: 76px;
+    left: 1214px;
+    position: absolute;
+}
+.ellipse-2{
+    top: 673px;
+    left: 649px;
+    position: absolute;
+}
+.ellipse-3{
+    top: 812px;
+    left: 49px;
+    position: absolute;
+}
+.elipse-5{
+    top: 684px;
+    right: -52px;
     position: absolute;
 }
 .content {
@@ -84,6 +104,11 @@ div.logo{
     padding: 20px;
     background-color: #fff;
     border-radius: 20px;
+}
+.div h1 p{
+    top: 124px;
+    left: 134px;
+    position: absolute;
 }
 
 

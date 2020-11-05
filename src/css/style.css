@@ -60,8 +60,11 @@ li:hover a {
 .background {
     width: 100%;
     display: flex;
-    position: relative;
+    position: absolute;
     z-index: 0;
+}
+.wrapper {
+    position: relative;
 }
 div.logo{
     margin: 33px auto 33px 150px;

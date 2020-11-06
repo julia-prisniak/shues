@@ -67,11 +67,17 @@ li:hover a {
     display: flex;
     position: absolute;
     z-index: 0;
+    height: calc(100vh - 113px);
+    top: 0px;
+    left: 0px;
     overflow: hidden;
 }
+
 .wrapper {
     position: relative;
+    padding-top: 124px;
 }
+
 div.logo{
     margin: 33px auto 33px 150px;
 
@@ -101,28 +107,131 @@ div.logo{
     right: -52px;
     position: absolute;
 }
+
 .content {
-    position: absolute;
+    position: relative;
     z-index: 11;
-    width: 100%;
     height: 100%;
+    display: flex;
+    width: 1140px;
+    margin: 0px auto;
 }
 
 .content a {
     text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
     padding: 20px;
-    background-color: #fff;
     border-radius: 20px;
 }
+
 h1{
     font-weight: 300;
-    top: 124px;
-    left: 134px;
-    position: absolute;
 }
 .bold{
     font-weight: 700;
     display: inline-block;
 }
+/*/////////////////*/
+.shues_cover img {
+    width: 70%;
+}
+
+.descr, .images {
+    width: 50%;
+}
+
+.images {
+    position: relative;
+}
+
+.content {
+    position: relative;
+    z-index: 11;
+    height: 100%;
+    display: flex;
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.shues_catalog {
+    display: flex;
+    position: relative;
+}
+
+.shues_catalog hr {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border-top: 5px dotted white;
+}
+
+.shues_item .circle {
+    width: 30px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: -19px;
+    margin-bottom: 24px;
+    border-radius: 50%;
+    background: red;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
+
+.item_cover .item_cover-img {
+    width: 130px;
+    height: auto;
+    position: relative;
+    z-index: 999;
+}
+
+.item_cover .cost {
+    width: 330px;
+    margin-top: -100px;
+    margin-left: 45px;
+    box-sizing: border-box;
+    max-width: 0px;
+    opacity: 0;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 15px 15px 120px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.shues_item:hover .cost {
+    opacity: 1;
+    max-width: 330px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.item_cover .cost p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
+.next-item {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 13%;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 

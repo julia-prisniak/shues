@@ -113,6 +113,7 @@ div.logo{
     left: 673px;
     position: absolute;
 }
+
 .content {
     position: relative;
     z-index: 11;
@@ -132,6 +133,7 @@ div.logo{
     border-radius: 20px;
 
 }
+
 h1{
     height: 50%;
     font-weight: 300;

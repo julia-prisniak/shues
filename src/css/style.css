@@ -13,8 +13,6 @@ a{
 }
 nav{
     width: 100%;
-    /* padding-top: 33px;
-    padding-bottom: 33px; */
     display: flex;
     justify-content: flex-end;
 }
@@ -54,12 +52,14 @@ li {
 
 li:hover { 
     border-bottom: 2px solid #FF0073;
+    
 }
 
 li:hover a {
     color: #FF0073;
     font-weight: bold;
     font-size: 24px;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .background {
@@ -67,62 +67,181 @@ li:hover a {
     display: flex;
     position: absolute;
     z-index: 0;
+    height: calc(100vh - 113px);
+    top: 0px;
+    left: 0px;
     overflow: hidden;
 }
+
 .wrapper {
     position: relative;
+    padding-top: 124px;
 }
+
 div.logo{
     margin: 33px auto 33px 150px;
 
 }
-.ellipse-1{
+.ellipse-5{
     top: 124px;
     left: -55px;
     position: absolute;
 }
-.ellipse-4{
+.ellipse-1{
     top: 76px;
     left: 1214px;
     position: absolute;
 }
-.ellipse-2{
-    top: 673px;
-    left: 649px;
-    position: absolute;
-}
 .ellipse-3{
-    top: 812px;
-    left: 49px;
-    position: absolute;
-}
-.ellipse-5{
-    top: 868px;
+    bottom:-55px;
     right: -52px;
     position: absolute;
 }
-.content {
+.ellipse-2{
+    top: 46px;
+    left: 1331px;
     position: absolute;
+}
+.ellipse-4{
+    top: 812px;
+    right: 59
+    px;
+    position: absolute;
+}
+.ellipse-6{
+    top: 673px;
+    left: 673px;
+    position: absolute;
+}
+.content {
+    position: relative;
     z-index: 11;
-    width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 10px auto;
 }
 
 .content a {
     text-transform: uppercase;
+    color: #FF0073;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
     padding: 20px;
-    background-color: #fff;
     border-radius: 20px;
+
 }
 h1{
+    height: 50%;
     font-weight: 300;
-    top: 124px;
-    left: 134px;
-    position: absolute;
+    font-size: 75px;
+    font-family: Montserrat;
+    top: 42px;
+    left: 42px;
+}
+p{
+    height: 50%;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 22px;
 }
 .bold{
     font-weight: 700;
     display: inline-block;
 }
+.shues_cover img {
+    width: 70%;
+}
+
+.descr, .images {
+    width: 50%;
+}
+
+.images {
+    position: relative;
+}
+
+.shues_catalog {
+    display: flex;
+    position: relative;
+}
+
+.shues_item {
+    z-index: 15;
+}
+
+.shues_catalog hr {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border-top: 5px dotted white;
+    z-index: 11;
+}
+
+.shues_item .circle {
+    width: 30px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: -19px;
+    margin-bottom: 24px;
+    border-radius: 50%;
+    background: #FF0073;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
+
+.circle.blue {
+    background-color: #57C7E4;
+}
+
+.circle.yellow {
+    background-color: #ECDC47;
+}
+
+.item_cover .item_cover-img {
+    width: 130px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.item_cover .cost {
+    width: 330px;
+    margin-top: -100px;
+    margin-left: 45px;
+    box-sizing: border-box;
+    max-width: 0px;
+    opacity: 0;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 15px 15px 120px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.shues_item:hover .cost {
+    opacity: 1;
+    max-width: 330px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.item_cover .cost p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    white-space: nowrap;
+}
 
 
+.next-item {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    right: 0px;
+}
